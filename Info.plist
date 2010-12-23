@@ -19,11 +19,11 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>0.1.1</string>
+	<string>0.1.2</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Version 0.0.9</string>
+	<string>Version 0.1.2</string>
 	<key>CFBundleDisplayName</key>
 	<string>Audio Compare</string>
 	<key>NSPrincipalClass</key>
