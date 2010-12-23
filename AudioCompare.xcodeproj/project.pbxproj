@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		C82C72890FE06785009204D8 /* defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = C82C72880FE06785009204D8 /* defaults.plist */; };
+		C84AA9480FB8B6A100758D68 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84AA9470FB8B6A100758D68 /* Sparkle.framework */; };
+		C84AA97D0FB8B6D000758D68 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C84AA9470FB8B6A100758D68 /* Sparkle.framework */; };
+		C84AA9870FB8B96600758D68 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = C84AA9860FB8B96600758D68 /* dsa_pub.pem */; };
+		C87A61850FC3336200D1A157 /* C.png in Resources */ = {isa = PBXBuildFile; fileRef = C87A61830FC3336200D1A157 /* C.png */; };
+		C87A61860FC3336200D1A157 /* D.png in Resources */ = {isa = PBXBuildFile; fileRef = C87A61840FC3336200D1A157 /* D.png */; };
+		C881AF8510584826007E33D7 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C881AF8310584826007E33D7 /* CAStreamBasicDescription.cpp */; };
+		C881AFC110584DE1007E33D7 /* CAAudioChannelLayoutObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C881AFC010584DE1007E33D7 /* CAAudioChannelLayoutObject.cpp */; };
+		C890165B0FABA84A00B69EDD /* GSAudioFilePlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C890165A0FABA84A00B69EDD /* GSAudioFilePlayer.mm */; };
+		C8918F620FAA2CA800BAE9DD /* AudioCompareController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C8918F610FAA2CA800BAE9DD /* AudioCompareController.mm */; };
+		C8918FD20FAA31A100BAE9DD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8918FD10FAA31A100BAE9DD /* AudioToolbox.framework */; };
+		C891907F0FAA680B00BAE9DD /* CAComponentDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C891907D0FAA680B00BAE9DD /* CAComponentDescription.cpp */; };
+		C89190A10FAA70EF00BAE9DD /* CAAudioUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C891909F0FAA70EF00BAE9DD /* CAAudioUnit.cpp */; };
+		C89190A40FAA710400BAE9DD /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C89190A30FAA710400BAE9DD /* AudioUnit.framework */; };
+		C89190A80FAA712200BAE9DD /* CAAudioChannelLayout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C89190A60FAA712200BAE9DD /* CAAudioChannelLayout.cpp */; };
+		C89190AC0FAA713C00BAE9DD /* AUOutputBL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C89190AA0FAA713C00BAE9DD /* AUOutputBL.cpp */; };
+		C89190B00FAA716C00BAE9DD /* CAComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C89190AE0FAA716C00BAE9DD /* CAComponent.cpp */; };
+		C8BAE8E20FB0E81500D857BF /* GSAudioCompareApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = C8BAE8E10FB0E81500D857BF /* GSAudioCompareApp.mm */; };
+		C8BAE9360FB0ECD700D857BF /* A.png in Resources */ = {isa = PBXBuildFile; fileRef = C8BAE9340FB0ECD700D857BF /* A.png */; };
+		C8BAE9370FB0ECD700D857BF /* B.png in Resources */ = {isa = PBXBuildFile; fileRef = C8BAE9350FB0ECD700D857BF /* B.png */; };
+		C8BAEA740FB105A400D857BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8BAEA730FB105A400D857BF /* QuartzCore.framework */; };
+		C8BAEB3A0FB10F4F00D857BF /* Unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = C8BAEB390FB10F4F00D857BF /* Unknown.png */; };
+		C8D5286F0FB0CA0F00F911C2 /* GSABDropView.mm in Sources */ = {isa = PBXBuildFile; fileRef = C8D5286E0FB0CA0F00F911C2 /* GSABDropView.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C82C71870FE04F8E009204D8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84AA94E0FB8B6B300758D68 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C84AA97D0FB8B6D000758D68 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* AudioCompare_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioCompare_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Audio Compare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Audio Compare.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82C72880FE06785009204D8 /* defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = defaults.plist; sourceTree = "<group>"; };
+		C84AA9470FB8B6A100758D68 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = "../../../../devel/Sparkle 1/Sparkle.framework"; sourceTree = SOURCE_ROOT; };
+		C84AA9860FB8B96600758D68 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		C87A61830FC3336200D1A157 /* C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C.png; sourceTree = "<group>"; };
+		C87A61840FC3336200D1A157 /* D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D.png; sourceTree = "<group>"; };
+		C881AF8310584826007E33D7 /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAStreamBasicDescription.cpp; path = Extras/CoreAudio/PublicUtility/CAStreamBasicDescription.cpp; sourceTree = DEVELOPER_DIR; };
+		C881AF8410584826007E33D7 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAStreamBasicDescription.h; path = Extras/CoreAudio/PublicUtility/CAStreamBasicDescription.h; sourceTree = DEVELOPER_DIR; };
+		C881AFC010584DE1007E33D7 /* CAAudioChannelLayoutObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAAudioChannelLayoutObject.cpp; path = Extras/CoreAudio/PublicUtility/CAAudioChannelLayoutObject.cpp; sourceTree = DEVELOPER_DIR; };
+		C89016590FABA84A00B69EDD /* GSAudioFilePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSAudioFilePlayer.h; sourceTree = "<group>"; };
+		C890165A0FABA84A00B69EDD /* GSAudioFilePlayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GSAudioFilePlayer.mm; sourceTree = "<group>"; };
+		C8918F600FAA2CA800BAE9DD /* AudioCompareController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioCompareController.h; sourceTree = "<group>"; };
+		C8918F610FAA2CA800BAE9DD /* AudioCompareController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioCompareController.mm; sourceTree = "<group>"; };
+		C8918FD10FAA31A100BAE9DD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		C891907D0FAA680B00BAE9DD /* CAComponentDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAComponentDescription.cpp; path = Extras/CoreAudio/PublicUtility/CAComponentDescription.cpp; sourceTree = DEVELOPER_DIR; };
+		C891907E0FAA680B00BAE9DD /* CAComponentDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAComponentDescription.h; path = Extras/CoreAudio/PublicUtility/CAComponentDescription.h; sourceTree = DEVELOPER_DIR; };
+		C891909F0FAA70EF00BAE9DD /* CAAudioUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAAudioUnit.cpp; path = Extras/CoreAudio/PublicUtility/CAAudioUnit.cpp; sourceTree = DEVELOPER_DIR; };
+		C89190A00FAA70EF00BAE9DD /* CAAudioUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAAudioUnit.h; path = Extras/CoreAudio/PublicUtility/CAAudioUnit.h; sourceTree = DEVELOPER_DIR; };
+		C89190A30FAA710400BAE9DD /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
+		C89190A60FAA712200BAE9DD /* CAAudioChannelLayout.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAAudioChannelLayout.cpp; path = Extras/CoreAudio/PublicUtility/CAAudioChannelLayout.cpp; sourceTree = DEVELOPER_DIR; };
+		C89190A70FAA712200BAE9DD /* CAAudioChannelLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAAudioChannelLayout.h; path = Extras/CoreAudio/PublicUtility/CAAudioChannelLayout.h; sourceTree = DEVELOPER_DIR; };
+		C89190AA0FAA713C00BAE9DD /* AUOutputBL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AUOutputBL.cpp; path = Extras/CoreAudio/PublicUtility/AUOutputBL.cpp; sourceTree = DEVELOPER_DIR; };
+		C89190AB0FAA713C00BAE9DD /* AUOutputBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AUOutputBL.h; path = Extras/CoreAudio/PublicUtility/AUOutputBL.h; sourceTree = DEVELOPER_DIR; };
+		C89190AE0FAA716C00BAE9DD /* CAComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAComponent.cpp; path = Extras/CoreAudio/PublicUtility/CAComponent.cpp; sourceTree = DEVELOPER_DIR; };
+		C89190AF0FAA716C00BAE9DD /* CAComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAComponent.h; path = Extras/CoreAudio/PublicUtility/CAComponent.h; sourceTree = DEVELOPER_DIR; };
+		C8BAE8E00FB0E81500D857BF /* GSAudioCompareApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSAudioCompareApp.h; sourceTree = "<group>"; };
+		C8BAE8E10FB0E81500D857BF /* GSAudioCompareApp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GSAudioCompareApp.mm; sourceTree = "<group>"; };
+		C8BAE9340FB0ECD700D857BF /* A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A.png; sourceTree = "<group>"; };
+		C8BAE9350FB0ECD700D857BF /* B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B.png; sourceTree = "<group>"; };
+		C8BAEA730FB105A400D857BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		C8BAEB390FB10F4F00D857BF /* Unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unknown.png; sourceTree = "<group>"; };
+		C8D5286D0FB0CA0F00F911C2 /* GSABDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSABDropView.h; sourceTree = "<group>"; };
+		C8D5286E0FB0CA0F00F911C2 /* GSABDropView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GSABDropView.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				C8918FD20FAA31A100BAE9DD /* AudioToolbox.framework in Frameworks */,
+				C89190A40FAA710400BAE9DD /* AudioUnit.framework in Frameworks */,
+				C8BAEA740FB105A400D857BF /* QuartzCore.framework in Frameworks */,
+				C84AA9480FB8B6A100758D68 /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C8D5286D0FB0CA0F00F911C2 /* GSABDropView.h */,
+				C8D5286E0FB0CA0F00F911C2 /* GSABDropView.mm */,
+				C8918F600FAA2CA800BAE9DD /* AudioCompareController.h */,
+				C8918F610FAA2CA800BAE9DD /* AudioCompareController.mm */,
+				C89016590FABA84A00B69EDD /* GSAudioFilePlayer.h */,
+				C890165A0FABA84A00B69EDD /* GSAudioFilePlayer.mm */,
+				C8BAE8E00FB0E81500D857BF /* GSAudioCompareApp.h */,
+				C8BAE8E10FB0E81500D857BF /* GSAudioCompareApp.mm */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8BAEA730FB105A400D857BF /* QuartzCore.framework */,
+				C89190A30FAA710400BAE9DD /* AudioUnit.framework */,
+				C8918FD10FAA31A100BAE9DD /* AudioToolbox.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Audio Compare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* AudioCompare */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = AudioCompare;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C891909E0FAA70C900BAE9DD /* Public Utility */,
+				32CA4F630368D1EE00C91783 /* AudioCompare_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C87A61830FC3336200D1A157 /* C.png */,
+				C87A61840FC3336200D1A157 /* D.png */,
+				C84AA9860FB8B96600758D68 /* dsa_pub.pem */,
+				C8BAEB390FB10F4F00D857BF /* Unknown.png */,
+				C8BAE9340FB0ECD700D857BF /* A.png */,
+				C8BAE9350FB0ECD700D857BF /* B.png */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				C82C72880FE06785009204D8 /* defaults.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C84AA9470FB8B6A100758D68 /* Sparkle.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C891909E0FAA70C900BAE9DD /* Public Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C881AFC010584DE1007E33D7 /* CAAudioChannelLayoutObject.cpp */,
+				C881AF8310584826007E33D7 /* CAStreamBasicDescription.cpp */,
+				C881AF8410584826007E33D7 /* CAStreamBasicDescription.h */,
+				C89190AE0FAA716C00BAE9DD /* CAComponent.cpp */,
+				C89190AF0FAA716C00BAE9DD /* CAComponent.h */,
+				C89190AA0FAA713C00BAE9DD /* AUOutputBL.cpp */,
+				C89190AB0FAA713C00BAE9DD /* AUOutputBL.h */,
+				C89190A60FAA712200BAE9DD /* CAAudioChannelLayout.cpp */,
+				C89190A70FAA712200BAE9DD /* CAAudioChannelLayout.h */,
+				C891909F0FAA70EF00BAE9DD /* CAAudioUnit.cpp */,
+				C89190A00FAA70EF00BAE9DD /* CAAudioUnit.h */,
+				C891907D0FAA680B00BAE9DD /* CAComponentDescription.cpp */,
+				C891907E0FAA680B00BAE9DD /* CAComponentDescription.h */,
+			);
+			name = "Public Utility";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Audio Compare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Audio Compare" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				C84AA94E0FB8B6B300758D68 /* CopyFiles */,
+				C82C71870FE04F8E009204D8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Audio Compare";
+			productInstallPath = "$(HOME)/Applications";
+			productName = AudioCompare;
+			productReference = 8D1107320486CEB800E47090 /* Audio Compare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AudioCompare" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* AudioCompare */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Audio Compare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				C8BAE9360FB0ECD700D857BF /* A.png in Resources */,
+				C8BAE9370FB0ECD700D857BF /* B.png in Resources */,
+				C8BAEB3A0FB10F4F00D857BF /* Unknown.png in Resources */,
+				C84AA9870FB8B96600758D68 /* dsa_pub.pem in Resources */,
+				C87A61850FC3336200D1A157 /* C.png in Resources */,
+				C87A61860FC3336200D1A157 /* D.png in Resources */,
+				C82C72890FE06785009204D8 /* defaults.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				C8918F620FAA2CA800BAE9DD /* AudioCompareController.mm in Sources */,
+				C891907F0FAA680B00BAE9DD /* CAComponentDescription.cpp in Sources */,
+				C89190A10FAA70EF00BAE9DD /* CAAudioUnit.cpp in Sources */,
+				C89190A80FAA712200BAE9DD /* CAAudioChannelLayout.cpp in Sources */,
+				C89190AC0FAA713C00BAE9DD /* AUOutputBL.cpp in Sources */,
+				C89190B00FAA716C00BAE9DD /* CAComponent.cpp in Sources */,
+				C890165B0FABA84A00B69EDD /* GSAudioFilePlayer.mm in Sources */,
+				C8D5286F0FB0CA0F00F911C2 /* GSABDropView.mm in Sources */,
+				C8BAE8E20FB0E81500D857BF /* GSAudioCompareApp.mm in Sources */,
+				C881AF8510584826007E33D7 /* CAStreamBasicDescription.cpp in Sources */,
+				C881AFC110584DE1007E33D7 /* CAAudioChannelLayoutObject.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../devel/Sparkle 1\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AudioCompare_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FLAC Support/FLACAudioCodec.component/Contents/MacOS\"",
+				);
+				PRODUCT_NAME = "Audio Compare";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../devel/Sparkle 1\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AudioCompare_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FLAC Support/FLACAudioCodec.component/Contents/MacOS\"",
+				);
+				PRODUCT_NAME = "Audio Compare";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Audio Compare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AudioCompare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
